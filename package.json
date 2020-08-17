@@ -1,0 +1,30 @@
+{
+  "name": "postgresql-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasLessa14/postgresql-node.git"
+  },
+  "author": "Lucas Lessa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasLessa14/postgresql-node/issues"
+  },
+  "homepage": "https://github.com/LucasLessa14/postgresql-node#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.3.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "sequelize-cli": "^6.2.0"
+  }
+}
